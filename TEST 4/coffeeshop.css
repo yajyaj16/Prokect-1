@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(fahmi-fakhrudin-nzyzAUsbV0M-unsplash.jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #A64B2A;
+}
+nav h1{
+    font-size: 28px;
+    color: white;
+}
+.nav li{
+    display: inline;
+    margin-left: 15px;
+}
+.nav li a{
+    font-size: 20px;
+    color: black;
+    color: white;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 250px;
+}
+.intro h1{
+   font-size: 70px;
+   color:#222831;
+   font-family: Arial;
+}
+
+.intro p{
+    font-size: 40px;
+}
+.intro button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.intro button:hover{
+    background-color: #222831;
+}
+
+.information{
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFDEB4;
+}
+.img img{
+    width: 500px;
+    height: 350px;
+     margin-top: 40px;
+     margin-left: 20px;
+     padding: 10px;
+     border-radius: 20px;
+}
+
+.about{
+    text-align: center;
+    margin-right: 15%;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: 'Times New Roman';
+}
+
+.sales{
+    width: 100%;
+    height: 80vh;
+    background-color: #F7F6DC;
+}
+.sales h1{
+       font-size: 45px;  
+       font-family: Arial; 
+
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+
+}
+
+
+.card p{
+    color: grey;
+    font-size: 22px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover{
+    opacity: 0.7;
+}
+
+.column{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
+}
